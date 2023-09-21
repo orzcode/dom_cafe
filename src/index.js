@@ -1,3 +1,2 @@
 import _ from 'lodash';
-
-console.log("Fucking Horseshit")
+import frontPage from './front';
