@@ -1,3 +1,3 @@
 import _ from 'lodash';
-import frontPage from './front.js';
-//frontPage()
+import scaffold from './scaffold.js';
+//scaffold()
