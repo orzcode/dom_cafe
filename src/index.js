@@ -25,6 +25,12 @@ tabLinksContainer.addEventListener("click", function (event) {
 
   event.preventDefault(); // Prevent the default link behavior (page refresh)
 
+  let activeTab = null;
+  if (clickedLink.classList.contains("active")) {
+    return; // Do nothing if it's the active tab
+  }
+  activeTab = clickedLink.id;
+
 // Get a reference to the #content div
 const contentDiv = document.getElementById("content");
 
