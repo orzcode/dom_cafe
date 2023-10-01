@@ -16,6 +16,7 @@ import aboutLink from "./about.js";
 // 	about();
 //   });
 
+(function init() {
 // Get a reference to the parent container that holds the tablinks
 const tabLinksContainer = document.querySelector("nav ul");
 
@@ -57,3 +58,4 @@ contentDiv.innerHTML = "";
       break;
   }
 });
+})();
