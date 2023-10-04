@@ -3,7 +3,7 @@ import scaffold from "./scaffold.js";
 //scaffold()
 
 import aboutLink from "./about.js";
-//import menuLink from "./menu.js";
+import menuLink from "./menu.js";
 // document.getElementById("aboutLink");
 // aboutLink.addEventListener("click", function(event) {
 // 	const links = document.querySelectorAll('.tablinks a');
