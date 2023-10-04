@@ -59,4 +59,7 @@ contentDiv.innerHTML = "";
       break;
   }
 });
+
+aboutLink();
+//loads About page initially
 })();
