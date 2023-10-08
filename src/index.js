@@ -60,6 +60,6 @@ contentDiv.innerHTML = "";
   }
 });
 
-aboutLink();
+//aboutLink();
 //loads About page initially
 })();
