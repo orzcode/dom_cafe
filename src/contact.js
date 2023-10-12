@@ -15,7 +15,7 @@ midFlexDiv.id = "midFlex";
 
 // Create the image element with a source and alt attribute
 const imageElement = document.createElement("img");
-imageElement.src = "../images/frog_fawners.jpg";
+imageElement.src = "./images/frog_fawners.jpg";
 imageElement.alt = "Frog Cafe Lovers";
 
 // Create the div with id "spanDiv"
