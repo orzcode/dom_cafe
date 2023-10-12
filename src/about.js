@@ -6,7 +6,7 @@ const aboutLink = () => {
 	aboutDiv.className = "tabcontent";
   
 	const img = document.createElement("img");
-	img.src = "/images/jungle_cuisine.jpg";
+	img.src = "./images/jungle_cuisine.jpg";
   
 	const h2 = document.createElement("h2");
 	h2.innerHTML = "<strong><em>From lilypad to lilyplate </em></strong>🌺🐸";
