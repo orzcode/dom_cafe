@@ -2,6 +2,7 @@ import _ from "lodash";
 import scaffold from "./scaffold.js";
 //scaffold()
 
+import contactLink from "./contact.js";
 import aboutLink from "./about.js";
 import menuLink from "./menu.js";
 // document.getElementById("aboutLink");
@@ -60,6 +61,6 @@ contentDiv.innerHTML = "";
   }
 });
 
-//aboutLink();
+aboutLink();
 //loads About page initially
 })();
