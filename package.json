@@ -5,7 +5,8 @@
   "main": "mainnp.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "webpack",
+    "updateLivePreview": "git subtree push --prefix dist origin gh-pages"
   },
   "repository": {
     "type": "git",
