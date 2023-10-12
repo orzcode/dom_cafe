@@ -5,18 +5,6 @@ import scaffold from "./scaffold.js";
 import contactLink from "./contact.js";
 import aboutLink from "./about.js";
 import menuLink from "./menu.js";
-// document.getElementById("aboutLink");
-// aboutLink.addEventListener("click", function(event) {
-// 	const links = document.querySelectorAll('.tablinks a');
-// 	links.forEach(l => l.classList.remove('active'));
-
-//     // Add the 'active' class to the clicked link
-//     this.classList.add('active');
-// 	event.preventDefault(); // Prevent the default link behavior (page refresh)
-
-// 	// Call the about() function when the link is clicked
-// 	about();
-//   });
 
 (function init() {
 // Get a reference to the parent container that holds the tablinks
